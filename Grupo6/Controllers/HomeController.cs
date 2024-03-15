@@ -13,16 +13,16 @@ namespace Grupo6.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Productos()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Seleccione sus productos favoritos!";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Contacto()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Regístrese con nosotros para recibir ofertas increíbles!";
 
             return View();
         }
