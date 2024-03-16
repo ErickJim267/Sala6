@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f63a66504e794bbfb09526d49cda9581" Name="Diagram1">
+        <EntityTypeShape EntityType="Grupo6Model.Categoria" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Grupo6Model.Estado_Pedido" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Grupo6Model.Estado_Productos" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Grupo6Model.Estado_Usuario" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Grupo6Model.Pedidos" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Grupo6Model.Persona" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Grupo6Model.Producto" Width="1.5" PointX="3" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Grupo6Model.Rol" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Grupo6Model.Tipo_Entrega" Width="1.5" PointX="5.25" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Grupo6Model.Ubicacion" Width="1.5" PointX="0.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Grupo6Model.Ventas" Width="1.5" PointX="7.5" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="Grupo6Model.FK__Persona__Id_Cate__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="Grupo6Model.FK__Ventas__Id_estad__6477ECF3" ManuallyRouted="false" />
+        <AssociationConnector Association="Grupo6Model.FK__Producto__Id_Est__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="Grupo6Model.FK__Persona__Id_Esta__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="Grupo6Model.FK__Pedidos__Id_Pers__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="Grupo6Model.FK__Pedidos__Id_Prod__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="Grupo6Model.FK__Ventas__Id_pedid__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="Grupo6Model.FK__Persona__Id_Rol__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="Grupo6Model.FK__Ventas__Id_perso__66603565" ManuallyRouted="false" />
+        <AssociationConnector Association="Grupo6Model.FK__Producto__Id_Ubi__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="Grupo6Model.FK__Ventas__Id_entre__6383C8BA" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

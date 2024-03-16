@@ -19,7 +19,12 @@ namespace Grupo6.Controllers
 
             return View();
         }
+        public ActionResult Productos()
+        {
+            ViewBag.Message = "Your application description page.";
 
+            return View();
+        }
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";

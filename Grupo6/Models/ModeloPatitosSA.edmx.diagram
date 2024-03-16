@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e67aa1c41f724b5bb64de67b5c7ebb79" Name="Diagram1">
+        <EntityTypeShape EntityType="Grupo6Model.Categoria" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Grupo6Model.Estado_Productos" Width="1.5" PointX="0.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Grupo6Model.Estado_Usuario" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Grupo6Model.Pedidos" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Grupo6Model.Persona" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Grupo6Model.Producto" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Grupo6Model.Rol" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Grupo6Model.Ubicacion" Width="1.5" PointX="0.75" PointY="12.5" IsExpanded="true" />
+        <AssociationConnector Association="Grupo6Model.FK__Persona__Id_Cate__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="Grupo6Model.FK__Producto__Id_Est__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="Grupo6Model.FK__Persona__Id_Esta__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="Grupo6Model.FK__Pedidos__Id_Pers__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="Grupo6Model.FK__Pedidos__Id_Prod__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="Grupo6Model.FK__Persona__Id_Rol__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="Grupo6Model.FK__Producto__Id_Ubi__4D94879B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

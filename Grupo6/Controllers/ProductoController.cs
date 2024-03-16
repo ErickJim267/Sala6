@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace Grupo6.Controllers
 {
-    public class ProductosController : Controller
+    public class ProductoController : Controller
     {
 
         Grupo6Entities contexto = new Grupo6Entities();
@@ -23,10 +23,10 @@ namespace Grupo6.Controllers
         public ActionResult Productos()
         {
 
-            if (TempData["msj"] != null)
-            {
-                ViewBag.msj = TempData["msj"];
-            }
+            //if (TempData["msj"] != null)
+            //{
+            //    ViewBag.msj = TempData["msj"];
+            //}
 
             List<Producto> data = contexto.Producto.ToList();
 
