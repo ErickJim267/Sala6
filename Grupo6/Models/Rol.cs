@@ -12,24 +12,18 @@ namespace Grupo6.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Producto
+    public partial class Rol
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Producto()
+        public Rol()
         {
-            this.Pedidos = new HashSet<Pedidos>();
+            this.Persona = new HashSet<Persona>();
         }
     
-        public int Id_Producto { get; set; }
-        public string Nombre_Producto { get; set; }
-        public Nullable<int> Cantidad { get; set; }
-        public Nullable<int> Id_Estado { get; set; }
-        public Nullable<decimal> Precio { get; set; }
-        public Nullable<int> Id_Ubicacion { get; set; }
+        public int Id_Rol { get; set; }
+        public string Nombre_Rol { get; set; }
     
-        public virtual Estado_Productos Estado_Productos { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Pedidos> Pedidos { get; set; }
-        public virtual Ubicacion Ubicacion { get; set; }
+        public virtual ICollection<Persona> Persona { get; set; }
     }
 }
